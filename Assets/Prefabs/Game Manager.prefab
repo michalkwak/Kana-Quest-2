@@ -1,0 +1,365 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6471685380702040294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6471685380702040288}
+  - component: {fileID: 6471685380702040289}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6471685380702040288
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6471685380702040294}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6471685380702040289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6471685380702040294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002675729bc783d42a13a2beaaab9612, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerAnimator: {fileID: 0}
+  enemyAnimator: {fileID: 0}
+  healthBar: {fileID: 0}
+  enemyHealthBar: {fileID: 0}
+  hiraganaQuestions:
+  - question: "\u3042"
+    correctAnswerIndex: 0
+  - question: "\u3044"
+    correctAnswerIndex: 1
+  - question: "\u3046"
+    correctAnswerIndex: 2
+  - question: "\u3048"
+    correctAnswerIndex: 3
+  - question: "\u304A"
+    correctAnswerIndex: 4
+  - question: "\u304B"
+    correctAnswerIndex: 5
+  - question: "\u304D"
+    correctAnswerIndex: 6
+  - question: "\u304F"
+    correctAnswerIndex: 7
+  - question: "\u3051"
+    correctAnswerIndex: 8
+  - question: "\u3053"
+    correctAnswerIndex: 9
+  - question: "\u3055"
+    correctAnswerIndex: 10
+  - question: "\u3057"
+    correctAnswerIndex: 11
+  - question: "\u3059"
+    correctAnswerIndex: 12
+  - question: "\u305B"
+    correctAnswerIndex: 13
+  - question: "\u305D"
+    correctAnswerIndex: 14
+  - question: "\u305F"
+    correctAnswerIndex: 15
+  - question: "\u3061"
+    correctAnswerIndex: 16
+  - question: "\u3064"
+    correctAnswerIndex: 17
+  - question: "\u3066"
+    correctAnswerIndex: 18
+  - question: "\u3068"
+    correctAnswerIndex: 19
+  - question: "\u306A"
+    correctAnswerIndex: 20
+  - question: "\u306B"
+    correctAnswerIndex: 21
+  - question: "\u306C"
+    correctAnswerIndex: 22
+  - question: "\u306D"
+    correctAnswerIndex: 23
+  - question: "\u306E"
+    correctAnswerIndex: 24
+  - question: "\u306F"
+    correctAnswerIndex: 25
+  - question: "\u3072"
+    correctAnswerIndex: 26
+  - question: "\u3075"
+    correctAnswerIndex: 27
+  - question: "\u3078"
+    correctAnswerIndex: 28
+  - question: "\u307B"
+    correctAnswerIndex: 29
+  - question: "\u307E"
+    correctAnswerIndex: 30
+  - question: "\u307F"
+    correctAnswerIndex: 31
+  - question: "\u3080"
+    correctAnswerIndex: 32
+  - question: "\u3081"
+    correctAnswerIndex: 33
+  - question: "\u3082"
+    correctAnswerIndex: 34
+  - question: "\u3084"
+    correctAnswerIndex: 35
+  - question: "\u3086"
+    correctAnswerIndex: 36
+  - question: "\u3088"
+    correctAnswerIndex: 37
+  - question: "\u3089"
+    correctAnswerIndex: 38
+  - question: "\u308A"
+    correctAnswerIndex: 39
+  - question: "\u308B"
+    correctAnswerIndex: 40
+  - question: "\u308C"
+    correctAnswerIndex: 41
+  - question: "\u308D"
+    correctAnswerIndex: 42
+  - question: "\u308F"
+    correctAnswerIndex: 43
+  - question: "\u3092"
+    correctAnswerIndex: 44
+  - question: "\u3093"
+    correctAnswerIndex: 45
+  - question: "\u304C"
+    correctAnswerIndex: 46
+  - question: "\u304E"
+    correctAnswerIndex: 47
+  - question: "\u3050"
+    correctAnswerIndex: 48
+  - question: "\u3052"
+    correctAnswerIndex: 49
+  - question: "\u3054"
+    correctAnswerIndex: 50
+  - question: "\u3056"
+    correctAnswerIndex: 51
+  - question: "\u3058"
+    correctAnswerIndex: 52
+  - question: "\u305A"
+    correctAnswerIndex: 53
+  - question: "\u305C"
+    correctAnswerIndex: 54
+  - question: "\u305E"
+    correctAnswerIndex: 55
+  - question: "\u3060"
+    correctAnswerIndex: 56
+  - question: "\u3062"
+    correctAnswerIndex: 57
+  - question: "\u3065"
+    correctAnswerIndex: 58
+  - question: "\u3067"
+    correctAnswerIndex: 59
+  - question: "\u3069"
+    correctAnswerIndex: 60
+  - question: "\u3070"
+    correctAnswerIndex: 61
+  - question: "\u3073"
+    correctAnswerIndex: 62
+  - question: "\u3076"
+    correctAnswerIndex: 63
+  - question: "\u3079"
+    correctAnswerIndex: 64
+  - question: "\u307C"
+    correctAnswerIndex: 65
+  - question: "\u3071"
+    correctAnswerIndex: 66
+  - question: "\u3074"
+    correctAnswerIndex: 67
+  - question: "\u3077"
+    correctAnswerIndex: 68
+  - question: "\u307A "
+    correctAnswerIndex: 69
+  - question: "\u307D"
+    correctAnswerIndex: 70
+  katakanaQuestions:
+  - question: "\u30A2"
+    correctAnswerIndex: 0
+  - question: "\u30A4"
+    correctAnswerIndex: 1
+  - question: "\u30A6"
+    correctAnswerIndex: 2
+  - question: "\u30A8"
+    correctAnswerIndex: 3
+  - question: "\u30AA"
+    correctAnswerIndex: 4
+  - question: "\u30AB"
+    correctAnswerIndex: 5
+  - question: "\u30AD"
+    correctAnswerIndex: 6
+  - question: "\u30AF"
+    correctAnswerIndex: 7
+  - question: "\u30B1"
+    correctAnswerIndex: 8
+  - question: "\u30B3"
+    correctAnswerIndex: 9
+  - question: "\u30B5"
+    correctAnswerIndex: 10
+  - question: "\u30B7"
+    correctAnswerIndex: 11
+  - question: "\u30B9"
+    correctAnswerIndex: 12
+  - question: "\u30BB"
+    correctAnswerIndex: 13
+  - question: "\u30BD"
+    correctAnswerIndex: 14
+  - question: "\u30BF"
+    correctAnswerIndex: 15
+  - question: "\u30C1"
+    correctAnswerIndex: 16
+  - question: "\u30C4"
+    correctAnswerIndex: 17
+  - question: "\u30C6"
+    correctAnswerIndex: 18
+  - question: "\u30C8"
+    correctAnswerIndex: 19
+  - question: "\u30CA"
+    correctAnswerIndex: 20
+  - question: "\u30CB"
+    correctAnswerIndex: 21
+  - question: "\u30CC"
+    correctAnswerIndex: 22
+  - question: "\u30CD"
+    correctAnswerIndex: 23
+  - question: "\u30CE"
+    correctAnswerIndex: 24
+  - question: "\u30CF"
+    correctAnswerIndex: 25
+  - question: "\u30D2"
+    correctAnswerIndex: 26
+  - question: "\u30D5"
+    correctAnswerIndex: 27
+  - question: "\u30D8"
+    correctAnswerIndex: 28
+  - question: "\u30DB"
+    correctAnswerIndex: 29
+  - question: "\u30DE"
+    correctAnswerIndex: 30
+  - question: "\u30DF"
+    correctAnswerIndex: 31
+  - question: "\u30E0"
+    correctAnswerIndex: 32
+  - question: "\u30E1"
+    correctAnswerIndex: 33
+  - question: "\u30E2"
+    correctAnswerIndex: 34
+  - question: "\u30E4"
+    correctAnswerIndex: 35
+  - question: "\u30E6"
+    correctAnswerIndex: 36
+  - question: "\u30E8"
+    correctAnswerIndex: 37
+  - question: "\u30E9"
+    correctAnswerIndex: 38
+  - question: "\u30EA"
+    correctAnswerIndex: 39
+  - question: "\u30EB"
+    correctAnswerIndex: 40
+  - question: "\u30EC"
+    correctAnswerIndex: 41
+  - question: "\u30ED"
+    correctAnswerIndex: 42
+  - question: "\u30EF"
+    correctAnswerIndex: 43
+  - question: "\u30F2"
+    correctAnswerIndex: 44
+  - question: "\u30F3"
+    correctAnswerIndex: 45
+  commonAnswers:
+  - A
+  - I
+  - U
+  - E
+  - O
+  - KA
+  - KI
+  - KU
+  - KE
+  - KO
+  - SA
+  - SHI
+  - SU
+  - SE
+  - SO
+  - TA
+  - CHI
+  - TSU
+  - TE
+  - TO
+  - NA
+  - NI
+  - NU
+  - NE
+  - NO
+  - HA
+  - HI
+  - FU
+  - HE
+  - HO
+  - MA
+  - MI
+  - MU
+  - ME
+  - MO
+  - YA
+  - YU
+  - YO
+  - RA
+  - RI
+  - RU
+  - RE
+  - RO
+  - WA
+  - WO
+  - N
+  - GA
+  - GI
+  - GU
+  - GE
+  - GO
+  - ZA
+  - JI
+  - ZU
+  - ZE
+  - ZO
+  - DA
+  - (JI)
+  - (ZU)
+  - DE
+  - DO
+  - BA
+  - BI
+  - BU
+  - BE
+  - BO
+  - PA
+  - PI
+  - PU
+  - PE
+  - PO
+  timeBetweenQuestions: 0
+  factText: {fileID: 0}
+  answerButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
